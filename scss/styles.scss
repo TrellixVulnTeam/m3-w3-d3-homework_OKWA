@@ -1,0 +1,53 @@
+/* Variables */
+@import "scss/colors.scss";
+@import "scss/nav.scss";
+body{
+    background-color: $body-bg-color;
+}
+@mixin btn($bg-color) {
+    background-color: $bg-color;
+    padding: 5px;
+    color: $white;
+}
+/* Nest Main */
+main {
+    width: 1350px;
+    min-height:535px;
+    padding: 20px;
+    background-color: $white;
+    text-align: center;
+    float: left;
+    #intro-text{
+        width: 40%; 
+        min-height:535px;
+        float: left;
+        background-color: $intro-text-bg;
+        padding-top: 20px;
+        span{
+            font-family: $font2;
+            font-size: 2.5rem;
+        }
+        h3{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1rem;
+            color: $black;
+        }
+        button{
+            @include btn($body-bg-color);
+        }
+    }
+    #intro-image{
+        width: 60%; 
+        min-height:535px;
+        float: left;
+        img{
+            height: 535px;
+        }
+    }
+}
+footer{
+    clear: both;
+    padding: 20px;
+}

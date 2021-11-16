@@ -1,0 +1,14 @@
+@import "scss/colors.scss";
+/* Nest Nav */
+nav{
+    ul{
+        li{
+            list-style: none;
+            color: $white;
+            display: inline-block;
+            a{
+                color: $white;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+nav ul li {
+    list-style: none;
+    color: white;
+    display: inline-block; }
+    nav ul li a {
+      color: white; }

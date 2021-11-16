@@ -1,0 +1,48 @@
+/* Variables */
+/* Nest Nav */
+nav ul li {
+    list-style: none;
+    color: white;
+    display: inline-block; }
+    nav ul li a {
+      color: white; }
+  
+  body {
+    background-color: #daaa0e; }
+  
+  /* Nest Main */
+  main {
+    width: 1350px;
+    min-height: 535px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    float: left; }
+    main #intro-text {
+      width: 40%;
+      min-height: 535px;
+      float: left;
+      background-color: #d4d5d8;
+      padding-top: 20px; }
+      main #intro-text span {
+        font-family: "Sacramento", cursive;
+        font-size: 2.5rem; }
+      main #intro-text h3 {
+        font-size: 2.5rem; }
+      main #intro-text p {
+        font-size: 1rem;
+        color: #313130; }
+      main #intro-text button {
+        background-color: #daaa0e;
+        padding: 5px;
+        color: white; }
+    main #intro-image {
+      min-height: 535px;
+      width: 50%;
+      float: left; }
+      main #intro-image img {
+        height: 535px; }
+  
+  footer {
+    clear: both;
+    padding: 10px; }
